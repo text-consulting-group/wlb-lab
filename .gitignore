@@ -22,3 +22,8 @@
 
 # Ignore .env files as they are personal
 /.env
+node_modules
+/dump
+.php-version
+/*.log
+deployment-config.json
