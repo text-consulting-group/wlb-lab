@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3c42c51253ba3bc56b77bf433a3ddb5",
+    "content-hash": "7008f8b04de39ba3ffbd41a7be0767ca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2598,6 +2598,88 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-08-07T19:19:20+00:00"
+        },
+        {
+            "name": "drupal/devel",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/devel.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "01f3349ef75f6e21fceef24be9d3d6506ca29647"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1507197844",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "homepage": "https://github.com/weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hans Salvisberg",
+                    "homepage": "https://www.drupal.org/u/salvis",
+                    "email": "drupal@salvisberg.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Luca Lusso",
+                    "homepage": "https://www.drupal.org/u/lussoluca",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Marco (willzyx)",
+                    "homepage": "https://www.drupal.org/u/willzyx",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/3236/committers"
+                },
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "support": {
+                "source": "http://cgit.drupalcode.org/devel",
+                "issues": "http://drupal.org/project/devel",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
         },
         {
             "name": "drush/drush",
@@ -6527,7 +6609,7 @@
             "version": "8.3.5",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/coder.git",
+                "url": "https://git.drupalcode.org/project/coder.git",
                 "reference": "35277fc8675b6a2cbb194f8880145a9c85c845c4"
             },
             "require": {
@@ -6654,13 +6736,13 @@
             "authors": [
                 {
                     "name": "Justin Bishop",
-                    "email": "jubishop@gmail.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "jubishop@gmail.com"
                 },
                 {
                     "name": "Anthon Pang",
-                    "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork Maintainer"
+                    "role": "Fork Maintainer",
+                    "email": "apang@softwaredevelopment.ca"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -6986,18 +7068,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
