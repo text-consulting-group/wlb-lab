@@ -1,0 +1,21 @@
+name: 'TheMAG Thunder Default Content'
+type: module
+description: 'Provide an initial demo content for TheMAG theme. This module is used for demonstration purposes only, you can uninstall it on your production site.'
+package: TheMAG Demo
+core: '8.x'
+dependencies:
+  - better_normalizers
+  - default_content
+default_content:
+  node:
+    - 737e18cd-59b4-4e18-a46a-029a22cb8c6c
+  block_content:
+    - b53fdcd3-00e9-4c33-bcd1-c7e58557ef43
+    - 7220b7e7-3ead-421a-b249-d9279bcadfc2
+  media:
+    - cd9960d2-a595-4abd-9d4d-898d8dfdab21
+  file:
+    - 5da422e2-779a-4066-9193-03a458873732
+    - 13fd22bc-cc58-46cb-8e68-da2caaa48953
+  menu_link_content:
+    - 1d6bfb1c-8b12-467f-846d-0c8b530c18f0

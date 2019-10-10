@@ -1,0 +1,35 @@
+// subtheme.scss
+//
+// The file includes the subtheme _variables.scss file and original themag.scss file.
+// This is the best scenario if you'd like to change TheMAG default variables and add extra SCSS.
+//
+// This file includes the subtheme variable file and original themag.scss file.
+// This is the best scenario if you'd like to change TheMAG default variables and add extra SCSS.
+//
+// You can also override a certain component, for example a style for the Poll component.
+// In that case you have to replace @import "themag/scss/themag"; line with all components.
+//
+// 1. Copy the entire content from the /themes/themag/_src/themag/scss/themag.scss
+// and replace this line @import "themag/scss/themag";
+//
+// 2. Change the include path to include the components from the base theme.
+// Add "themag/scss/" before each component.
+//
+// Example:
+//
+// From @import "components/field/channel"; to @import "themag/scss/components/field/channel";
+//
+//
+// 3. Copy the component you'd like to override from themag scss directory
+// to you scss directory in a custom location, e.g. new-components directory.
+// In our example we'd like to override Poll component, so we will copy _poll.scss
+// from components/modules/ and past it to our new-components directory.
+//
+// 4. Now we have to change the include path so the poll component can be included
+// from our new-component directory.
+//
+// From: @import "themag/scss/components/modules/poll"; to @import "new-components/poll";
+//
+
+@import "variables";
+@import "themag/scss/themag";

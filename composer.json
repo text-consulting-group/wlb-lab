@@ -1,54 +1,108 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "burdamagazinorg/thunder-project",
+    "description": "Project template for Thunder projects with composer",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Daniel Bosen",
+            "email": "daniel.bosen@burda.com"
+        },
+        {
+            "name": "Christian Fritsch",
+            "email": "christian.fritsch@burda.com"
+        },
+        {
+            "name": "Mladen Todorovic",
+            "email": "mladen.todorovic@burda.com"
+        },
+        {
+            "name": "Timo Welde",
+            "email": "welde@galaniproject.de"
+        },
+        {
+            "name": "Volker Killesreiter",
+            "email": "killesreiter@burda.com"
         }
     ],
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "custom-asset/spectrum",
+            "version": "1.8.0",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/bgrins/spectrum/archive/1.8.0.zip",
+                "type": "zip"
+            },
+            "require": {
+              "composer/installers": "^1.2.0"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "heiseonline/shariff",
+            "version": "3.0.1",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/heiseonline/shariff/releases/download/3.0.1/shariff-3.0.1.zip",
+                "type": "zip"
+            },
+            "require": {
+              "composer/installers": "^1.2.0"
+            }
+          }
         }
     ],
     "require": {
-        "php": ">=5.6",
+        "burdamagazinorg/thunder": "~8.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/console": "^1.2",
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6.5",
-        "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/console": "^1.0.2",
-        "drupal/core": "^8.7.0",
-        "drupal/devel": "~1.0",
-        "drupal/nexus": "1.4",
-        "drupal/pathauto": "^1.4",
-        "drush/drush": "^9.0.0",
-        "vlucas/phpdotenv": "^2.4",
+        "drush/drush": "~8.0|^9.0.0-beta8",
+        "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "bower-asset/jquery-simple-color": "^1.2",
+        "custom-asset/spectrum": "^1.8",
+        "drupal/color_field": "^2.0",
+        "drupal/field_formatter": "^1.2",
+        "drupal/poll": "^1.2",
+        "drupal/realname": "^1.0@RC",
+        "drupal/slick_views": "^1.0",
+        "drupal/views_infinite_scroll": "^1.5",
+        "heiseonline/shariff": "^3.0",
+        "drupal/tb_megamenu": "1.x-dev",
+        "drupal/layout_library": "^1.0@beta",
+        "drupal/entityqueue": "^1.0@beta"
+    },
+    "replace": {
+      "bower-asset/shariff": "*"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "^8.7.0"
-    },
-    "conflict": {
-        "drupal/drupal": "*"
+        "webflo/drupal-core-require-dev": "^8.4"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "config": {
-        "sort-packages": true
-    },
     "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ],
-        "files": ["load.environment.php"]
+        "psr-4": {
+            "DrupalProject\\composer\\": "scripts/composer/"
+        }
     },
     "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "pre-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
@@ -63,23 +117,47 @@
         ]
     },
     "extra": {
-        "composer-exit-on-patch-failure": true,
-        "patchLevel": {
-            "drupal/core": "-p2"
-        },
+       "installer-types": ["npm-asset", "bower-asset"],
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/{$name}": ["type:drupal-drush"]
+            "docroot/core": ["type:drupal-core"],
+            "docroot/libraries/{$name}": [
+              "type:drupal-library",
+              "type:npm-asset",
+              "type:bower-asset"
+            ],
+            "docroot/modules/contrib/{$name}": ["type:drupal-module"],
+            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
         },
-        "drupal-scaffold": {
-            "initial": {
-                ".editorconfig": "../.editorconfig",
-                ".gitattributes": "../.gitattributes"
-            }
-        }
+        "patches": {
+          "drupal/core": {
+            "3045171: Form blocks rendered inside layout builder break save": "https://www.drupal.org/files/issues/2019-06-27/3045171-66.patch",
+            "3062742: Drag-and-drop reordering doesn't work if the region content is nested in other elements": "https://www.drupal.org/files/issues/2019-06-19/3062742_2.patch",
+            "3043319: Real world rendering of a layout builder page is much slower with calls to ::filterPluginDefinitionsByContexts in SectionStorageManager::findByContext": "https://www.drupal.org/files/issues/2019-03-26/3043319-5.patch",
+            "2981889: Performance Degradation in Layout Builder and other places likely": "https://www.drupal.org/files/issues/2019-05-24/layout_builder_performance-2981889-20.patch"
+          },
+          "drupal/page_manager": {
+            "2752227: Incorrect page_title title in browser toolbar": "https://www.drupal.org/files/issues/2018-10-26/page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch"
+          },
+          "drupal/panels": {
+            "2869412: Page title does not display": "https://www.drupal.org/files/issues/2018-03-19/panels--page_title_does_not_display--2869412-27.patch",
+            "2824632: Changes to Layout not being saved": "https://www.drupal.org/files/issues/2018-08-28/panels-fix_updating_layout-2824632-16-D8.patch",
+            "3030976: Panels should check if there is an icon map before setting the no preview icon": "https://www.drupal.org/files/issues/2019-02-06/initial.patch"
+          },
+          "drupal/panelizer": {
+            "3031671: PanelizerWizardContextForm calls parent constructor without enough arguments under CTools 3.1": "https://www.drupal.org/files/issues/2019-04-03/3031671-8.patch"
+          },
+          "drupal/poll": {
+            "2331515: Allow to show the poll question in the vote/result templates": "https://www.drupal.org/files/issues/2019-03-15/question-title-is-displayed-as-block-title-2923946-8.x-1.x-dev-7.patch"
+          },
+          "drupal/mailchimp": {
+            "2936099: Notice: Undefined property: stdClass::$size in mailchimp_insert_drupal_form_tag()": "https://www.drupal.org/files/issues/2018-06-07/suppress-size-notice-2936099-6.patch"
+          }
+        },
+        "enable-patching": true
+    },
+    "config": {
+        "bin-dir": "bin/"
     }
 }

@@ -1,0 +1,22 @@
+uuid: 1f3fd97c-4d64-4e7e-962f-facff1d3bb30
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charm
+_core:
+  default_config_hash: NMYfh7M4ijRWzK92380GZgm-N9Xkbu-LJ61-7haqcTo
+id: charm_messages
+theme: charm
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

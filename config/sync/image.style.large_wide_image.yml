@@ -1,0 +1,17 @@
+uuid: dda82602-5020-4f43-a161-819c4f7ade6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: large_wide_image
+label: 'Large Wide Image (1600x800)'
+effects:
+  d4424c91-21f1-481d-81ea-1a49eeb3b9fa:
+    uuid: d4424c91-21f1-481d-81ea-1a49eeb3b9fa
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 800
+      crop_type: focal_point

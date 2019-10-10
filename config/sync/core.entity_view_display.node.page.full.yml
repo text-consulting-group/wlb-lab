@@ -1,0 +1,138 @@
+uuid: 147398a1-25b1-4e74-8d79-2aa2ef656700
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.page.body
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
+  module:
+    - layout_builder
+    - layout_library
+    - system
+    - text
+    - themag_layouts
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: themag_onecol_section
+        layout_settings:
+          section_bg: ''
+          section_padding: ''
+          section_margin: my-default
+          section_custom_classes: mt-6
+          container_style: container
+          row_custom_classes: ''
+          no_gutters: 0
+          column_widths: '12'
+          sticky_columns: null
+          first:
+            custom_classes: ''
+        components:
+          28e341c5-059a-40ea-ae75-4638372f0bbe:
+            uuid: 28e341c5-059a-40ea-ae75-4638372f0bbe
+            region: first
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  empty_fields:
+                    handler: ''
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+      -
+        layout_id: themag_onecol_section
+        layout_settings:
+          section_bg: ''
+          section_padding: ''
+          section_margin: my-default
+          section_custom_classes: mt-n5
+          container_style: container
+          row_custom_classes: ''
+          no_gutters: 0
+          column_widths: '12'
+          sticky_columns: null
+          first:
+            custom_classes: ''
+        components:
+          3495fb75-7d04-4a94-b71f-9dd7c3d9ec35:
+            uuid: 3495fb75-7d04-4a94-b71f-9dd7c3d9ec35
+            region: first
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+      -
+        layout_id: themag_onecol_section
+        layout_settings:
+          section_bg: ''
+          section_padding: ''
+          section_margin: my-default
+          section_custom_classes: ''
+          container_style: container
+          row_custom_classes: ''
+          no_gutters: 0
+          column_widths: '12'
+          sticky_columns: null
+          first:
+            custom_classes: ''
+        components:
+          b3c28af0-13ff-4af8-80c0-36ea7acc283f:
+            uuid: b3c28af0-13ff-4af8-80c0-36ea7acc283f
+            region: first
+            configuration:
+              id: 'field_block:node:page:body'
+              label: Body
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings:
+                  empty_fields:
+                    handler: ''
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+  layout_library:
+    enable: false
+id: node.page.full
+targetEntityType: node
+bundle: page
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  layout_builder__layout: true
+  links: true
+  shariff_field: true

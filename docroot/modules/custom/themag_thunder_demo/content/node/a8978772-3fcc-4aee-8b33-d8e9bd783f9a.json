@@ -1,0 +1,361 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/outfit-equations-wake-your-summer-wardrobe?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "href": "http:\/\/default\/style?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/style-0?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/summer-outfit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 74
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a8978772-3fcc-4aee-8b33-d8e9bd783f9a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 194
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-29T15:29:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/style?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8025790e-a404-46d5-b272-e86cd7d33902"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0695f9e4-180f-4327-b113-f19f4a49062d"
+                    }
+                ],
+                "target_revision_id": "60"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/twitter"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c030d67b-6ab4-44c8-8d1a-db4cfe3bf6be"
+                    }
+                ],
+                "target_revision_id": "61"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "24cb91bf-bae3-4510-86dd-264e449a92a0"
+                    }
+                ],
+                "target_revision_id": "62"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/style-0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d1cfa158-9fbf-4a10-ab85-bca095f85866"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/summer-outfit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8f915546-63c9-44a0-b2d0-2bc371a0f1ea"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd9960d2-a595-4abd-9d4d-898d8dfdab21"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Outfit equations to wake up your summer wardrobe",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-05T23:17:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-29T15:29:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Outfit equations to wake up your summer wardrobe",
+                "content_language": "en",
+                "twitter_cards_type": "summary_large_image",
+                "robots": "index, follow",
+                "og_site_name": "TheMAG",
+                "og_type": "article",
+                "twitter_cards_description": "Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat.",
+                "description": "Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat.",
+                "og_title": "Outfit equations to wake up your summer wardrobe",
+                "image_src": "",
+                "referrer": "no-referrer",
+                "og_description": "Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat.",
+                "twitter_cards_image_width": "1024",
+                "twitter_cards_image_height": "512",
+                "twitter_cards_image": "http:\/\/default\/sites\/default\/files\/styles\/twitter\/public\/2019-02\/default-img_0_2.png?itok=YVaQBZU4",
+                "og_image_0": "http:\/\/default\/sites\/default\/files\/styles\/facebook\/public\/2019-02\/default-img_0_2.png?itok=4Ofhw1MH",
+                "og_image_type": "image\/png",
+                "og_image_width": "1200",
+                "og_image_height": "630",
+                "og_updated_time": "2019-06-29T17:29:06+0200"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/outfit-equations-wake-your-summer-wardrobe",
+            "pid": 7,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "publish_state": [
+        {
+            "value": "_none",
+            "lang": "en"
+        }
+    ],
+    "unpublish_state": [
+        {
+            "value": "_none",
+            "lang": "en"
+        }
+    ],
+    "field_comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1549408799,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_seo_title": [
+        {
+            "value": "Outfit equations to wake up your summer wardrobe"
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": "Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat."
+        }
+    ]
+}

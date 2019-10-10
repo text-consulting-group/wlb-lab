@@ -1,0 +1,10 @@
+uuid: 4936612b-96bf-4a1d-9f51-a0de16f21a43
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.medium_teaser_card
+label: 'Medium Teaser Card'
+targetEntityType: node
+cache: true

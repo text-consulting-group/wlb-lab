@@ -1,0 +1,22 @@
+uuid: e220071e-18ef-430f-bc8c-cb7bf68bd5b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - themag_st
+_core:
+  default_config_hash: pEZdIUgricJ60MLIvRvQV9bBWrqiuAvV9DYOcxaTak0
+id: searchform
+theme: themag_st
+region: footer_third
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

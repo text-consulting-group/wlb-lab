@@ -1,0 +1,184 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/78?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/themag_landing_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 78
+        }
+    ],
+    "uuid": [
+        {
+            "value": "737e18cd-59b4-4e18-a46a-029a22cb8c6c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 187
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "themag_landing_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-29T12:55:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/themag_landing_page\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd9960d2-a595-4abd-9d4d-898d8dfdab21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Home",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-29T12:54:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-29T12:55:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Home | TheMAG",
+                "canonical_url": "http:\/\/default\/node\/78"
+            }
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit enim eu pulvinar suscipit. Donec ac lacinia mauris, quis feugiat sapien. Integer consequat in eros sit amet tristique. ",
+            "lang": "en"
+        }
+    ],
+    "layout_selection": [
+        {
+            "target_id": "mg_home_page_1",
+            "lang": "en"
+        }
+    ]
+}

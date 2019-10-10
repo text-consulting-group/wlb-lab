@@ -1,0 +1,23 @@
+uuid: f35f20cb-1afc-41ad-b210-47429d4a1c7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_facebook
+  module:
+    - link
+    - user
+id: user.user.field_facebook
+field_name: field_facebook
+entity_type: user
+bundle: user
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

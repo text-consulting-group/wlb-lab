@@ -1,0 +1,22 @@
+uuid: 341e6ecf-5dc4-45a8-8d9e-61fec16fa5f8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - charm
+_core:
+  default_config_hash: M6NKopDWSrk-aLt_-B6fmfIWAJIjOMUkUh95zYLqtmU
+id: charm_local_tasks
+theme: charm
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

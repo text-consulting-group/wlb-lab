@@ -1,0 +1,20 @@
+uuid: a36c9d8f-e078-45a5-94aa-405bb54cc702
+langcode: en
+status: true
+dependencies:
+  theme:
+    - charm
+_core:
+  default_config_hash: mB_JcXYKxy9n1XCjKGMr9kWv0I5bACXfFjKnQdb1FEg
+id: charm_local_actions
+theme: charm
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,80 @@
+name: 'TheMAG Thuder Demo'
+type: module
+description: 'Provide additional demo content for TheMAG. This module is used for demonstration purposes only, you can uninstall it on your production site.'
+package: TheMAG demo
+core: '8.x'
+dependencies:
+  - themag_thunder_default_content
+  - entityqueue
+default_content:
+  node:
+    - d6c0f846-a941-47d0-bb40-e34d3102cd44
+    - 6bca2f0a-6e9b-49d4-b69f-33f6ed8a6e80
+    - f09c0bed-8e67-4afc-bee1-620376a81a2d
+    - d289dcf0-0ad5-4b2c-9003-ef21550dcee0
+    - a35a21f7-3da1-4ba9-a162-39927420d072
+    - a8978772-3fcc-4aee-8b33-d8e9bd783f9a
+    - 8550ae3a-cd31-46e6-ba6b-140068ace0fa
+    - 20e6429a-1489-4931-b8ee-73c58067cfc3
+    - 6dade429-16e7-442b-b414-a59e116f6adc
+    - 9ef51c81-5166-4d4b-adb2-cd5c36e587a3
+  taxonomy_term:
+    - dd0eb07c-78ad-4db3-9b4d-784c386c8eda
+    - a25cd600-8522-425e-aaee-94f13edb4935
+    - 8025790e-a404-46d5-b272-e86cd7d33902
+    - d1cfa158-9fbf-4a10-ab85-bca095f85866
+    - 548a71d3-db79-4e0e-9ab1-fb335bc93178
+    - aba0349a-68ce-47b1-a1d1-4938da536495
+    - 8f915546-63c9-44a0-b2d0-2bc371a0f1ea
+    - 25ed4e7d-98a5-4a3a-b3a8-2acb28622461
+  media:
+    - e055fce4-afde-4ee8-aea3-f28fbac70399
+    - 11612684-97f9-4540-9b72-7f3e823bcab6
+    - e09abc37-376a-4d57-965d-3a336edc89b0
+    - 98484a2a-f772-47a5-a755-a6a4084caf24
+  poll:
+    - 3bd3685b-6928-4f71-859d-3d5ee0d79a5e
+  poll_choice:
+    - 635e3d47-59ff-4dd4-b518-4ef51a1a7f1c
+    - 80d030ab-82c9-4ef5-b699-aeb3c3558e35
+    - fc047857-ccbc-43b9-a7eb-413ae1c177f3
+  paragraph:
+    - ad2ca9c1-a9cf-4691-8cab-36cd83bc44ef
+    - f085ada5-63bd-41a1-bdb6-be65835fc3e2
+    - 2cd8db70-ad04-4119-92fd-b748614087a7
+    - 8353499d-4e30-4c1d-a029-a3d3400f0d56
+    - 0695f9e4-180f-4327-b113-f19f4a49062d
+    - f0e92758-73d9-49d3-a03f-09c4a5360fcf
+    - db9134df-8fb7-45cd-b05d-83481aeb046c
+    - 3ad7b37c-200a-491e-9847-bdf8700d94f1
+    - 9ba62218-0e5a-483e-a7bb-b2fe0baccca1
+    - a942c1a1-a735-4eac-93cf-c158ccb3a28a
+    - bd35b995-e619-4856-8171-f3ac994dc1ce
+    - 5eb200f6-1125-43ae-ae12-947a41e031ff
+    - 8c8e4437-65c4-4469-9fe4-c177cc693d3c
+    - b5b7ee9c-cae3-452b-8f81-f9aefd81543b
+    - 78117f2c-db3d-45cd-a104-24728cb53350
+    - f4b76291-dd25-44a2-a642-dd0882d38813
+    - b4df5a30-04f3-4c56-a0be-98b83b62c2ca
+    - c030d67b-6ab4-44c8-8d1a-db4cfe3bf6be
+    - 24cb91bf-bae3-4510-86dd-264e449a92a0
+    - d7ef7eab-1e25-4474-b54c-5b0e2ee7e65c
+    - 7fda6813-b357-463f-ad81-3276700a27f1
+    - 96546d73-6ed9-4463-bc7e-5d3d619a4775
+  menu_link_content:
+    - a7915d04-3a35-4d00-8432-928eac924921
+    - 1ccb6771-dee3-47d0-9535-a05af91971ba
+    - 40f39e75-ce30-4126-a47b-e844f4081bcc
+    - 5f97321e-3ea5-437a-8fe6-68129fb1ec1b
+    - 5c716fda-8c84-472a-be37-b27194e6400b
+    - 9a2108f5-197c-4960-9a4c-a0c346e42128
+    - d5dffd52-e437-4f16-b829-6d7c6a80644e
+    - dd2a1588-2d51-4622-b9d7-8bb60769fcc6
+    - 8bc909c3-b3c4-4efc-8c17-087ad4a4f152
+    - d729fe0b-2f5d-4a11-9b18-622c411e9ec9
+    - e03c9070-6030-4005-a1c4-582599aade9d
+    - ab2a4a2f-0a1d-4515-afe8-ef836c8851c4
+    - 3d4998ed-305a-4b8b-8572-c4f41263fd25
+    - ca25e9af-94aa-4af1-8ddb-a0523f4bf078
+    - dc195ecb-fe6a-48da-980d-464312a98cca
+    - a660b852-8bf3-46df-8053-d0615782c7ff

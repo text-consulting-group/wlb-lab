@@ -1,0 +1,23 @@
+uuid: be35d506-bb9c-488a-95b8-565e732bf28b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_pinterest
+  module:
+    - link
+    - user
+id: user.user.field_pinterest
+field_name: field_pinterest
+entity_type: user
+bundle: user
+label: Pinterest
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

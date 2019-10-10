@@ -1,0 +1,10 @@
+uuid: c592c253-ea1d-4897-8110-2c472710e4fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.medium_teaser_card_with_teaser_text
+label: 'Medium Teaser Card With Teaser Text'
+targetEntityType: node
+cache: true

@@ -1,0 +1,10 @@
+uuid: c83119be-f41e-49ab-8534-357e806d83e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.medium_card_with_square_image
+label: 'Medium Card With Square Image'
+targetEntityType: node
+cache: true

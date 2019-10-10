@@ -1,0 +1,189 @@
+uuid: 67a58a4f-6881-48d0-93b1-fb5246db6993
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_browser
+    - field.field.node.themag_landing_page.field_teaser_media
+    - field.field.node.themag_landing_page.field_teaser_text
+    - field.field.node.themag_landing_page.layout_builder__layout
+    - field.field.node.themag_landing_page.layout_selection
+    - node.type.themag_landing_page
+  module:
+    - entity_browser
+    - field_group
+    - path
+    - scheduler
+    - scheduler_content_moderation_integration
+    - thunder
+third_party_settings:
+  field_group:
+    group_teaser:
+      children:
+        - field_teaser_media
+        - field_teaser_text
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: 'content-form__form-section article-teaser'
+        description: ''
+        required_fields: true
+      label: Teaser
+    group_basis:
+      children:
+        - langcode
+        - layout_selection
+        - title
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: 'classes: content-form__form-section'
+        description: ''
+        required_fields: true
+      label: Basis
+id: node.themag_landing_page.default
+targetEntityType: node
+bundle: themag_landing_page
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  editors_picks:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  featured_item:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  field_teaser_media:
+    weight: 121
+    settings:
+      entity_browser: image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: thumbnail
+      field_widget_replace: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_teaser_text:
+    weight: 122
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  langcode:
+    type: language_select
+    weight: 11
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  layout_selection:
+    type: options_select
+    region: content
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+  moderation_state:
+    type: thunder_moderation_state_default
+    weight: 17
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  publish_state:
+    type: scheduler_moderation
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 18
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  unpublish_state:
+    type: scheduler_moderation
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  layout_builder__layout: true

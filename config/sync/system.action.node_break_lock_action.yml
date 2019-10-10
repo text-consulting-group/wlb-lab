@@ -1,0 +1,13 @@
+uuid: ff5d3252-e246-4543-bc16-0ad3e665a5f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_lock
+_core:
+  default_config_hash: HeI4XOuKQfk-RNJNP-B5qBVequu6RIiDnhejYBthwKk
+id: node_break_lock_action
+label: 'Break lock node'
+type: node
+plugin: 'entity:break_lock:node'
+configuration: {  }

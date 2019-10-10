@@ -1,0 +1,13 @@
+<div class="header-container header-container--{{ themag.header_style|clean_class }} js-page-header">
+  {% if themag.header_style == 'header_a' %}
+    {% include '@themag/base-layout/header/header-a.html.twig' %}
+  {% elseif themag.header_style == 'header_b' %}
+    {% include '@themag/base-layout/header/header-b.html.twig' %}
+  {% elseif themag.header_style == 'header_c' %}
+    {% include '@themag/base-layout/header/header-c.html.twig' %}
+  {% elseif themag.header_style == 'header_d' %}
+    {% include '@themag/base-layout/header/header-d.html.twig' %}
+  {% elseif themag.header_style == 'custom_header' %}
+    {% include '@themag_st/layout/header/custom-header.html.twig' %}
+  {% endif %}
+</div>

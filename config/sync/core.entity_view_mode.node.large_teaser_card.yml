@@ -1,0 +1,10 @@
+uuid: a844fcc5-0d2c-4d68-814b-ca7c3beea75d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.large_teaser_card
+label: 'Large Teaser Card'
+targetEntityType: node
+cache: true

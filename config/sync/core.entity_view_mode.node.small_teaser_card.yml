@@ -1,0 +1,10 @@
+uuid: 3dec1835-f02e-4076-83c1-fe6d026bfd5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.small_teaser_card
+label: 'Small Teaser Card'
+targetEntityType: node
+cache: true

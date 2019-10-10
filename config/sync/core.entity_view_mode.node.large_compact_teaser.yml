@@ -1,0 +1,10 @@
+uuid: 295a317c-0123-494d-8d43-872289120a18
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.large_compact_teaser
+label: 'Large Compact Teaser'
+targetEntityType: node
+cache: true

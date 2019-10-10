@@ -1,0 +1,27 @@
+uuid: 7e05648c-11ac-4309-813b-50b659b6d8fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - charm
+_core:
+  default_config_hash: gVzqfjuuELh2BLZEDT6eVETuOOROe6n72hi3mnVSBRI
+id: charm_tools
+theme: charm
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

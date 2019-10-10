@@ -1,0 +1,29 @@
+name: Seven Extended
+type: theme
+base theme: seven
+description: 'Extended version of the default administration theme Seven.'
+package: EM
+version: 1.0.0
+core: 8.x
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
+libraries:
+  - pd_seven/global-styling
+
+libraries-override:
+  masonry/masonry.layout:
+    css:
+      theme:
+        css/masonry.css: false

@@ -1,0 +1,22 @@
+uuid: e782f120-8938-4427-9f92-f4c5f4f6fdd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - thunder
+  theme:
+    - charm
+_core:
+  default_config_hash: w1Wt4CfWOnj0P6dD6h97-r5U1qCC0W3hKreYzs-svwM
+id: charm_powered
+theme: charm
+region: content
+weight: 10
+provider: null
+plugin: thunder_powered_by_block
+settings:
+  id: thunder_powered_by_block
+  label: 'Powered by Thunder'
+  provider: thunder
+  label_display: '0'
+visibility: {  }

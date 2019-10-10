@@ -1,0 +1,16 @@
+// _variables.scc
+//
+// In this file yo can add SCSS variables and use them later in the subtheme.scc,
+// or you can override any of TheMAG variables.
+//
+// To override a certain variable copy the variable from /themes/themag/_src/themag/scss/_variables.scss
+// and paste it in this file. For example, if you'd wish to change a theme primary color,
+// copy the primary color variable and remove the !default flag:
+//
+// Example:
+// Copy the $theme-primary-color: $blue-400 !default;
+// Change it to: $theme-primary-color: green;
+//
+// Now after running compiling the CSS, you can see that the primary
+// theme color is overridden to green.
+//

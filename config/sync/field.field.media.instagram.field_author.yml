@@ -1,0 +1,21 @@
+uuid: 06a9fd89-b8e8-44c7-8305-7c3a7c4228b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_author
+    - media_entity.bundle.instagram
+_core:
+  default_config_hash: zwCK7NSMDRnayoqZt4cKma4azMO3SKMIzB2yxAF2SBk
+id: media.instagram.field_author
+field_name: field_author
+entity_type: media
+bundle: instagram
+label: Author
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

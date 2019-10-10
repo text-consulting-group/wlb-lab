@@ -1,0 +1,27 @@
+uuid: 2cbfd4cb-f2f8-437a-884a-bb13f0f68c8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - charm
+_core:
+  default_config_hash: 0ZU9lzrNxZ-EwxqR4HNTRmIgDwNmO3mFSntA0IjlCHE
+id: charm_account_menu
+theme: charm
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 7a172301-5ee9-4f22-b024-b76dbf1c449f
+langcode: en
+status: true
+dependencies:
+  module:
+    - tb_megamenu
+  theme:
+    - themag_st
+id: mainnavigation
+theme: themag_st
+region: header_primary_menu
+weight: 0
+provider: null
+plugin: 'tb_megamenu_menu_block:main'
+settings:
+  id: 'tb_megamenu_menu_block:main'
+  label: 'Main navigation'
+  provider: tb_megamenu
+  label_display: '0'
+visibility: {  }

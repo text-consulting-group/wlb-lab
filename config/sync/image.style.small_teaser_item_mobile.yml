@@ -1,0 +1,17 @@
+uuid: 3b07e867-0a68-42d6-ac63-16c5f471a9c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: small_teaser_item_mobile
+label: 'Small Teaser Item - mobile (120x120)'
+effects:
+  c290d1e0-3af1-4a78-a018-4e5e5e5e85ed:
+    uuid: c290d1e0-3af1-4a78-a018-4e5e5e5e85ed
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 120
+      crop_type: focal_point

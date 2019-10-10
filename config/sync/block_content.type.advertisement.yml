@@ -1,0 +1,8 @@
+uuid: a80936b2-53c1-44b3-8934-c52ec931486f
+langcode: en
+status: true
+dependencies: {  }
+id: advertisement
+label: Advertisement
+revision: 0
+description: 'Banner Ads.'

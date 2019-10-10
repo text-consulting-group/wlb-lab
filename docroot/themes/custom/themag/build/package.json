@@ -1,0 +1,20 @@
+{
+  "name": "pinkdexo",
+  "version": "1.0.0",
+  "description": "Node.js requirements to build the theme.",
+  "main": "index.js",
+  "author": "PinkDexo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.11.0"
+  }
+}

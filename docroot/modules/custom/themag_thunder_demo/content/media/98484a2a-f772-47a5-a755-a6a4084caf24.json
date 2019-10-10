@@ -1,0 +1,170 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/instagram"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/thumbnail": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "98484a2a-f772-47a5-a755-a6a4084caf24"
+        }
+    ],
+    "vid": [
+        {
+            "value": 6
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "instagram"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "instagram - 2074214709724236280_25025320",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cb611fd6-0430-4786-bebc-e95d6806ff19"
+                    }
+                ],
+                "alt": "Thumbnail",
+                "title": "",
+                "width": "320",
+                "height": "212"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/instagram\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-29T15:38:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-29T15:38:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-29T15:38:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| TheMAG",
+                "canonical_url": "http:\/\/default\/node\/78"
+            }
+        }
+    ],
+    "field_url": [
+        {
+            "uri": "https:\/\/www.instagram.com\/p\/BzJF0nxAMn4\/?utm_source=ig_web_copy_link",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

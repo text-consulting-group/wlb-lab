@@ -1,0 +1,22 @@
+uuid: 2efdc49a-2bd8-45ad-8341-5d727d0d7e79
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charm
+_core:
+  default_config_hash: PEqEz1k7tHRCJ_mtDJq1WRTmzZA0hF_JELDRF9H7fNU
+id: charm_content
+theme: charm
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

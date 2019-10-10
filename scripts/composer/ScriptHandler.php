@@ -1,32 +1,25 @@
 <?php
-
 /**
  * @file
  * Contains \DrupalProject\composer\ScriptHandler.
  */
-
 namespace DrupalProject\composer;
-
 use Composer\Script\Event;
 use Composer\Semver\Comparator;
 use DrupalFinder\DrupalFinder;
 use Symfony\Component\Filesystem\Filesystem;
 use Webmozart\PathUtil\Path;
-
 class ScriptHandler {
-
   public static function createRequiredFiles(Event $event) {
     $fs = new Filesystem();
     $drupalFinder = new DrupalFinder();
     $drupalFinder->locateRoot(getcwd());
     $drupalRoot = $drupalFinder->getDrupalRoot();
-
     $dirs = [
       'modules',
       'profiles',
       'themes',
     ];
-
     // Required for unit testing
     foreach ($dirs as $dir) {
       if (!$fs->exists($drupalRoot . '/'. $dir)) {
@@ -34,7 +27,6 @@ class ScriptHandler {
         $fs->touch($drupalRoot . '/'. $dir . '/.gitkeep');
       }
     }
-
     // Prepare the settings file for installation
     if (!$fs->exists($drupalRoot . '/sites/default/settings.php') and $fs->exists($drupalRoot . '/sites/default/default.settings.php')) {
       $fs->copy($drupalRoot . '/sites/default/default.settings.php', $drupalRoot . '/sites/default/settings.php');
@@ -48,18 +40,16 @@ class ScriptHandler {
       ];
       drupal_rewrite_settings($settings, $drupalRoot . '/sites/default/settings.php');
       $fs->chmod($drupalRoot . '/sites/default/settings.php', 0666);
-      $event->getIO()->write("Created a sites/default/settings.php file with chmod 0666");
+      $event->getIO()->write("Create a sites/default/settings.php file with chmod 0666");
     }
-
     // Create the files directory with chmod 0777
     if (!$fs->exists($drupalRoot . '/sites/default/files')) {
       $oldmask = umask(0);
       $fs->mkdir($drupalRoot . '/sites/default/files', 0777);
       umask($oldmask);
-      $event->getIO()->write("Created a sites/default/files directory with chmod 0777");
+      $event->getIO()->write("Create a sites/default/files directory with chmod 0777");
     }
   }
-
   /**
    * Checks if the installed version of Composer is compatible.
    *
@@ -77,15 +67,12 @@ class ScriptHandler {
   public static function checkComposerVersion(Event $event) {
     $composer = $event->getComposer();
     $io = $event->getIO();
-
     $version = $composer::VERSION;
-
     // The dev-channel of composer uses the git revision as version number,
     // try to the branch alias instead.
     if (preg_match('/^[0-9a-f]{40}$/i', $version)) {
       $version = $composer::BRANCH_ALIAS_VERSION;
     }
-
     // If Composer is installed through git we have no easy way to determine if
     // it is new enough, just display a warning.
     if ($version === '@package_version@' || $version === '@package_branch_alias_version@') {
@@ -96,5 +83,4 @@ class ScriptHandler {
       exit(1);
     }
   }
-
 }

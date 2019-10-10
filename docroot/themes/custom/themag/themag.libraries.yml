@@ -1,0 +1,134 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      assets/css/themag.css: { weight: 0 }
+
+
+google-fonts:
+  css:
+    base:
+      https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;subset=cyrillic,greek: { type: external }
+
+
+# Sticky header
+# --------------------------------------
+sticky-header:
+  js:
+    assets/js/sticky-header.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+
+# Sticky sidebars
+# --------------------------------------
+sticky-sidebars:
+  js:
+    assets/js/sticky-sidebars.min.js: {}
+  dependencies:
+    - charm/sticky-kit
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    - core/matchmedia.addListener
+
+
+# Sidr - Off-canvas main menu
+# --------------------------------------
+off-canvas-main-menu:
+  js:
+    assets/js/sidr-off-canvas-main-menu.min.js: {}
+  dependencies:
+    - charm/sidr
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+
+# Back to top button
+# --------------------------------------
+back-to-top-button:
+  js:
+    assets/js/back-to-top-button.min.js: {}
+  dependencies:
+    - charm/smooth-scroll
+
+
+# Toggle search block
+# --------------------------------------
+toggle-search-block:
+  js:
+    assets/js/toggle-search-block.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+
+# Tabs
+# --------------------------------------
+drupal-tabs:
+  js:
+    assets/js/drupal-tabs.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+
+# User profile menu in header
+# -------------------------------------
+header-user-profile-menu:
+  js:
+    assets/js/header-user-profile-menu.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+
+# Commerce cart block
+# -------------------------------------
+commerce-cart-block:
+  js:
+    assets/js/commerce-cart-block.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+
+# Grid image gallery
+# --------------------------------------
+grid-image-gallery:
+  js:
+    assets/js/grid-image-gallery.min.js: {}
+  dependencies:
+    - charm/jquery-photoswipe
+    - core/jquery.once
+    - core/drupal
+
+
+# TheMAG Utilities
+# --------------------------------------
+themag-utilities:
+  js:
+    assets/js/utilities-background.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+
+# Compatibility mode
+# --------------------------------------
+
+themag-compatibility-mode:
+  css:
+    theme:
+      assets/css/themag-legacy.css: { weight: 10 }

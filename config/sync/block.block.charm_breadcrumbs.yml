@@ -1,0 +1,22 @@
+uuid: 1bb19a5a-7bea-4fb5-8d31-34c5c457e375
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - charm
+_core:
+  default_config_hash: s0iOX8GtlgrwOaM0TxJIbqGyZBmeqsseH-6YRQkfGkg
+id: charm_breadcrumbs
+theme: charm
+region: content
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,161 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/poll\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/poll\/poll"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/choice": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/choice": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "635e3d47-59ff-4dd4-b518-4ef51a1a7f1c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "80d030ab-82c9-4ef5-b699-aeb3c3558e35"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fc047857-ccbc-43b9-a7eb-413ae1c177f3"
+                    }
+                ]
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3bd3685b-6928-4f71-859d-3d5ee0d79a5e"
+        }
+    ],
+    "question": [
+        {
+            "value": "Question?",
+            "lang": "en"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "runtime": [
+        {
+            "value": 0
+        }
+    ],
+    "anonymous_vote_allow": [
+        {
+            "value": true
+        }
+    ],
+    "cancel_vote_allow": [
+        {
+            "value": true
+        }
+    ],
+    "result_vote_allow": [
+        {
+            "value": true
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-29T12:25:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| TheMAG",
+                "canonical_url": "http:\/\/default\/node\/78"
+            }
+        }
+    ]
+}

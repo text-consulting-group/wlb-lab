@@ -1,0 +1,136 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 20
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d7ef7eab-1e25-4474-b54c-5b0e2ee7e65c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 66
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49bfae98-84d7-4434-a6f3-3b91a781147a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-29T15:35:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "79"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat. Nam at tellus quis risus scelerisque vestibulum. Integer in libero finibus leo tincidunt condimentum.<\/p>\r\n\r\n<p>Etiam sodales, nisl in aliquet tempor, nisi nisl ornare magna, a pellentesque tortor mi sit amet dui. Suspendisse posuere posuere ante, quis semper mi dictum et.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida venenatis tristique. Phasellus et feugiat odio. Aliquam imperdiet sit amet risus nec volutpat. Nam at tellus quis risus scelerisque vestibulum. Integer in libero finibus leo tincidunt condimentum.<\/p>\n\n<p>Etiam sodales, nisl in aliquet tempor, nisi nisl ornare magna, a pellentesque tortor mi sit amet dui. Suspendisse posuere posuere ante, quis semper mi dictum et.<\/p>\n"
+        }
+    ]
+}

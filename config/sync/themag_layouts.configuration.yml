@@ -1,0 +1,4 @@
+remove_layout_discovery_layouts: 1
+remove_layout_builder_layouts: 1
+hide_themag_not_configurable_layouts: 1
+hide_default_drupal_layouts: 1

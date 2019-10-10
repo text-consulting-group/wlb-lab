@@ -1,0 +1,17 @@
+uuid: cf31f347-1d95-4ea8-9252-d4fc138e3d30
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: large_compact_teaser
+label: 'Large Compact Teaser (730×417)'
+effects:
+  2033845a-1239-48e5-8002-0352eca90142:
+    uuid: 2033845a-1239-48e5-8002-0352eca90142
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 730
+      height: 417
+      crop_type: focal_point

@@ -1,0 +1,10 @@
+uuid: 23ed615d-c443-4f63-be7f-5231bd1cf45d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.parallax
+label: Parallax
+targetEntityType: media
+cache: true

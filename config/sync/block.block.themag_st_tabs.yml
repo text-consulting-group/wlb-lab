@@ -1,0 +1,22 @@
+uuid: 06146543-1c42-414d-8664-8f2030edbc1d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themag_st
+_core:
+  default_config_hash: uvFJa9WFnTpQDEGD5WvWCUSKf1hE6OQrmvpbL4kPl04
+id: themag_st_tabs
+theme: themag_st
+region: content_administration
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 22558944-07e8-43b2-ad55-4ab78a9e2b5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themag_st
+_core:
+  default_config_hash: qiVi1X6VXIF5KhZtnA-mnWCaIeUEoNbstlMi_l_mizs
+id: breadcrumbs
+theme: themag_st
+region: content_header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: d2ca556f-bc00-4b5e-8c66-ece7c94ea377
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.medium_compact_teaser
+label: 'Medium Compact Teaser'
+targetEntityType: node
+cache: true

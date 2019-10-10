@@ -1,0 +1,24 @@
+uuid: 20afebfa-006a-4e98-87df-b47eedd98d15
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_teaser_card
+    - image.style.medium_teaser_card
+  theme:
+    - themag
+id: teaser_large_teaser_card
+label: 'Teaser: Large Teaser Card'
+image_style_mappings:
+  -
+    breakpoint_id: themag.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large_teaser_card
+  -
+    breakpoint_id: themag.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium_teaser_card
+breakpoint_group: themag
+fallback_image_style: large_teaser_card
