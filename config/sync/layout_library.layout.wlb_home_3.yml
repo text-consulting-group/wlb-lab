@@ -1,0 +1,157 @@
+uuid: 42392d1f-ea78-4cf3-a96e-4596671b06e1
+langcode: en
+status: true
+dependencies: {  }
+id: wlb_home_3
+label: wlb-home-3
+targetEntityType: node
+targetBundle: themag_landing_page
+layout:
+  -
+    layout_id: themag_onecol_section
+    layout_settings:
+      section_bg: ''
+      section_padding: ''
+      section_margin: my-default
+      section_custom_classes: ''
+      container_style: container-full
+      row_custom_classes: ''
+      no_gutters: 0
+      column_widths: '12'
+      sticky_columns: null
+      first:
+        custom_classes: ''
+    components: {  }
+    third_party_settings: {  }
+  -
+    layout_id: themag_onecol_section
+    layout_settings:
+      section_bg: ''
+      section_padding: ''
+      section_margin: my-default
+      section_custom_classes: ''
+      container_style: container-fluid
+      row_custom_classes: ''
+      no_gutters: 0
+      column_widths: '12'
+      sticky_columns: null
+      first:
+        custom_classes: ''
+    components:
+      f9a99272-579f-4ead-bc05-5de5cf60bb84:
+        uuid: f9a99272-579f-4ead-bc05-5de5cf60bb84
+        region: first
+        configuration:
+          id: 'views_block:mg_center_mode_slider-block_1'
+          label: ''
+          provider: views
+          label_display: '0'
+          views_label: ''
+          items_per_page: none
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+    third_party_settings: {  }
+  -
+    layout_id: themag_onecol_section
+    layout_settings:
+      section_bg: ''
+      section_padding: ''
+      section_margin: my-default
+      section_custom_classes: ''
+      container_style: container
+      row_custom_classes: ''
+      no_gutters: 0
+      column_widths: '12'
+      sticky_columns: null
+      first:
+        custom_classes: ''
+    components:
+      b86631d0-b99b-4e3c-880d-936e8a41a775:
+        uuid: b86631d0-b99b-4e3c-880d-936e8a41a775
+        region: first
+        configuration:
+          id: 'views_block:mg_editor_picks-block_2'
+          label: 사업영역
+          provider: views
+          label_display: visible
+          views_label: 사업영역
+          items_per_page: none
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+    third_party_settings: {  }
+  -
+    layout_id: themag_twocol_section
+    layout_settings:
+      section_bg: ''
+      section_padding: ''
+      section_margin: my-default
+      section_custom_classes: ''
+      container_style: container
+      row_custom_classes: ''
+      no_gutters: 0
+      column_widths: 8-4
+      sticky_columns: 0
+      first:
+        custom_classes: ''
+      second:
+        custom_classes: ''
+    components:
+      507c9c82-bf9d-4107-9459-02b0a9d20f25:
+        uuid: 507c9c82-bf9d-4107-9459-02b0a9d20f25
+        region: second
+        configuration:
+          id: 'views_block:mg_popular_content-block_1'
+          label: '인기있는 게시물'
+          provider: views
+          label_display: visible
+          views_label: '인기있는 게시물'
+          items_per_page: none
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+      d4435b7b-913e-4980-a334-f2de06dc08c5:
+        uuid: d4435b7b-913e-4980-a334-f2de06dc08c5
+        region: first
+        configuration:
+          id: 'views_block:experiment_list-block_1'
+          label: ''
+          provider: views
+          label_display: visible
+          views_label: ''
+          items_per_page: none
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+    third_party_settings: {  }
+  -
+    layout_id: themag_onecol_section
+    layout_settings:
+      section_bg: black
+      section_padding: py-xsmall
+      section_margin: my-default
+      section_custom_classes: ''
+      container_style: container
+      row_custom_classes: ''
+      no_gutters: 0
+      column_widths: '10'
+      sticky_columns: null
+      first:
+        custom_classes: ''
+    components:
+      7dae5e27-c5a1-44f2-8bc4-cfe2137efad8:
+        uuid: 7dae5e27-c5a1-44f2-8bc4-cfe2137efad8
+        region: first
+        configuration:
+          id: 'inline_block:advertisement'
+          label: '탈탈한 언니들 사업결과보고서'
+          provider: layout_builder
+          label_display: visible
+          view_mode: full
+          block_revision_id: null
+          block_serialized: "O:40:\"Drupal\\block_content\\Entity\\BlockContent\":30:{s:8:\"\0*\0theme\";N;s:9:\"\0*\0values\";a:17:{s:8:\"langcode\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:2:\"ko\";}}}s:11:\"revision_id\";a:1:{s:9:\"x-default\";a:0:{}}s:2:\"id\";a:1:{s:9:\"x-default\";a:0:{}}s:4:\"uuid\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:36:\"f6dabc33-3592-4ba4-91a4-7d5869070027\";}}}s:4:\"type\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:9:\"target_id\";s:13:\"advertisement\";}}}s:16:\"revision_created\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";i:1570002994;}}}s:13:\"revision_user\";a:1:{s:9:\"x-default\";a:0:{}}s:12:\"revision_log\";a:1:{s:9:\"x-default\";a:0:{}}s:6:\"status\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";b:1;}}}s:4:\"info\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:41:\"탈탈한 언니들 사업결과보고서\";}}}s:7:\"changed\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";i:1570002994;}}}s:8:\"reusable\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";b:0;}}}s:16:\"default_langcode\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";b:1;}}}s:16:\"revision_default\";a:1:{s:9:\"x-default\";a:0:{}}s:29:\"revision_translation_affected\";a:1:{s:9:\"x-default\";a:0:{}}s:7:\"metatag\";a:1:{s:9:\"x-default\";a:0:{}}s:4:\"body\";a:1:{s:9:\"x-default\";a:1:{i:0;a:3:{s:7:\"summary\";s:0:\"\";s:5:\"value\";s:122:\"<h1>탈탈한 언니들 사업결과보고서</h1>\r\n\r\n<h2><a href=\"http://wlb-lab.org\">[보고서 다운로드]</a></h2>\r\n\";s:6:\"format\";s:9:\"full_html\";}}}}s:9:\"\0*\0fields\";a:0:{}s:19:\"\0*\0fieldDefinitions\";N;s:12:\"\0*\0languages\";N;s:14:\"\0*\0langcodeKey\";s:8:\"langcode\";s:21:\"\0*\0defaultLangcodeKey\";s:16:\"default_langcode\";s:17:\"\0*\0activeLangcode\";s:9:\"x-default\";s:18:\"\0*\0defaultLangcode\";s:2:\"ko\";s:15:\"\0*\0translations\";a:1:{s:9:\"x-default\";a:1:{s:6:\"status\";i:2;}}s:24:\"\0*\0translationInitialize\";b:0;s:14:\"\0*\0newRevision\";b:1;s:20:\"\0*\0isDefaultRevision\";b:1;s:13:\"\0*\0entityKeys\";a:3:{s:6:\"bundle\";s:13:\"advertisement\";s:8:\"revision\";N;s:2:\"id\";N;}s:25:\"\0*\0translatableEntityKeys\";a:1:{s:8:\"langcode\";a:1:{s:9:\"x-default\";s:2:\"ko\";}}s:12:\"\0*\0validated\";b:1;s:21:\"\0*\0validationRequired\";b:0;s:19:\"\0*\0loadedRevisionId\";N;s:33:\"\0*\0revisionTranslationAffectedKey\";s:29:\"revision_translation_affected\";s:37:\"\0*\0enforceRevisionTranslationAffected\";a:0:{}s:15:\"\0*\0entityTypeId\";s:13:\"block_content\";s:15:\"\0*\0enforceIsNew\";b:1;s:12:\"\0*\0typedData\";N;s:16:\"\0*\0cacheContexts\";a:0:{}s:12:\"\0*\0cacheTags\";a:0:{}s:14:\"\0*\0cacheMaxAge\";i:-1;s:14:\"\0*\0_serviceIds\";a:0:{}s:18:\"\0*\0_entityStorages\";a:0:{}s:12:\"\0*\0isSyncing\";b:0;s:19:\"\0*\0accessDependency\";N;}"
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+    third_party_settings: {  }

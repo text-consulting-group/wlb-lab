@@ -9,3 +9,5 @@ skip_untranslated: false
 base_url: ''
 _core:
   default_config_hash: kBnQrzmcrqNeQne5YcLke_BhHccyZuee2uqJbWEI214
+cron_generate_interval: 0
+excluded_languages: {  }

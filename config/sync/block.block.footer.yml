@@ -1,4 +1,4 @@
-uuid: 4304970d-703b-453c-b47b-a61f0dec7cbe
+uuid: 6026a82e-dd3a-4a57-8453-69c6665d1976
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,7 @@ dependencies:
     - system
   theme:
     - themag_st
-_core:
-  default_config_hash: t7j1A_cdFMmrpwX1Bc8Wm6nqVxOF9-bbzMJkEbhpqM0
-id: themag_st_footer_2
+id: footer
 theme: themag_st
 region: footer_bottom_second
 weight: 0
@@ -18,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Footer
+  label: 'Footer Menu'
   provider: system
   label_display: '0'
   level: 1

@@ -1,0 +1,27 @@
+uuid: e5e02b5a-f7b6-4965-9913-23542df351af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_matierials
+    - node.type.research_info
+  module:
+    - file
+id: node.research_info.field_research_matierials
+field_name: field_research_matierials
+entity_type: node
+bundle: research_info
+label: '연구 원본파일'
+description: Research_matierials
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: '30 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,113 @@
+uuid: 8f6ed022-a4e0-4cb4-97a2-8c6e98f2c4ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.research_info.body
+    - field.field.node.research_info.field_research_abstract
+    - field.field.node.research_info.field_research_chronological
+    - field.field.node.research_info.field_research_fund_category
+    - field.field.node.research_info.field_research_fund_name
+    - field.field.node.research_info.field_research_matierial_url
+    - field.field.node.research_info.field_research_matierials
+    - field.field.node.research_info.field_research_papers_goods
+    - field.field.node.research_info.field_research_status
+    - field.field.node.research_info.field_researchers_cooperative
+    - node.type.research_info
+  module:
+    - file
+    - link
+    - options
+    - text
+    - user
+id: node.research_info.default
+targetEntityType: node
+bundle: research_info
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_research_abstract:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_research_chronological:
+    weight: 16
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_research_fund_category:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_research_fund_name:
+    weight: 13
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_research_matierial_url:
+    weight: 10
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_research_matierials:
+    weight: 9
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_research_papers_goods:
+    weight: 15
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_research_status:
+    weight: 14
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_researchers_cooperative:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  shariff_field: true

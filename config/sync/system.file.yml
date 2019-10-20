@@ -1,0 +1,4 @@
+path:
+  temporary: ../tmp
+temporary_maximum_age: 0
+default_scheme: public

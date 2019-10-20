@@ -1,0 +1,21 @@
+uuid: d8a05281-6104-4592-8696-7fb5bf99b9c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_abstract
+    - node.type.research_info
+  module:
+    - text
+id: node.research_info.field_research_abstract
+field_name: field_research_abstract
+entity_type: node
+bundle: research_info
+label: 연구요약
+description: Research_Abstract
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -2,6 +2,7 @@ verbose: 1
 types:
   node:
     article: article
+    page: page
   access_token: {  }
   crop: {  }
   file: {  }
@@ -13,17 +14,22 @@ types:
   paragraph: {  }
   content_moderation_state: {  }
   update_helper_checklist_update: {  }
+  block_content: {  }
+  comment: {  }
+  entity_subqueue: {  }
+  poll: {  }
+  poll_choice: {  }
 types_translation_lock: {  }
 types_js_lock: {  }
 form_op_lock:
   access_token:
-    mode: null
+    mode: 0
     values: {  }
   crop:
     mode: 0
     values: {  }
   file:
-    mode: null
+    mode: 0
     values: {  }
   media:
     mode: 0
@@ -49,10 +55,25 @@ form_op_lock:
     mode: 0
     values: {  }
   content_moderation_state:
-    mode: null
+    mode: 0
     values: {  }
   update_helper_checklist_update:
-    mode: null
+    mode: 0
+    values: {  }
+  block_content:
+    mode: 0
+    values: {  }
+  comment:
+    mode: 0
+    values: {  }
+  entity_subqueue:
+    mode: 0
+    values: {  }
+  poll:
+    mode: 0
+    values: {  }
+  poll_choice:
+    mode: 0
     values: {  }
 _core:
   default_config_hash: 763aQdVPCYhYHuPc-oYFfdK2eQkuxg50x0P9nymHO2E

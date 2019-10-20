@@ -1,0 +1,21 @@
+uuid: 1a057712-94a5-40d2-8c13-5575960bca44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_status
+    - node.type.research_info
+  module:
+    - options
+id: node.research_info.field_research_status
+field_name: field_research_status
+entity_type: node
+bundle: research_info
+label: 상태
+description: research_status
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

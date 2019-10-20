@@ -1,0 +1,20 @@
+uuid: 94a8a147-c767-470a-b9be-7fab52caca7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_researchers_cooperative
+field_name: field_researchers_cooperative
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

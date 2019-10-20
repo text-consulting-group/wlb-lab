@@ -22,9 +22,9 @@ third_party_settings:
     fields_display_mode: vertical_tab
 _core:
   default_config_hash: JR3VHtjJtVjHJrJlFiIhZ566TTlk3PGyAKKeIe-sKV4
-name: Article
+name: '공지 / 실험 / 아카데미'
 type: article
-description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+description: '공지사항 / 실험 / 아카데미 영역의 글을 작성합니다. 분류는 채널로 선택하세요.(Article)'
 help: ''
 new_revision: true
 preview_mode: 1

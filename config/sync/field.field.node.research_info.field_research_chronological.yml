@@ -1,0 +1,21 @@
+uuid: f1816702-896a-467f-b550-d4845b43d5f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_chronological
+    - node.type.research_info
+  module:
+    - options
+id: node.research_info.field_research_chronological
+field_name: field_research_chronological
+entity_type: node
+bundle: research_info
+label: 연구연도(연대별)
+description: research_chronological
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

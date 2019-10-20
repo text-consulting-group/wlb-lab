@@ -16,6 +16,7 @@ permissions:
   - 'change own username'
   - 'search content'
   - 'use text format basic_html'
+  - 'use text format full_html'
   - 'view media'
   - 'view published terms in channel'
   - 'view published terms in tags'

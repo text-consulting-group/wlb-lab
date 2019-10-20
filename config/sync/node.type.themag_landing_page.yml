@@ -8,8 +8,8 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
-      - footer
       - main
+      - footer
     parent: 'main:'
   scheduler:
     expand_fieldset: when_required
@@ -22,9 +22,9 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
-name: 'Landing Page'
+name: '랜딩 페이지'
 type: themag_landing_page
-description: ''
+description: '홈 및 주요한 페이지 레이아웃을 보여줄 때 사용합니다.  (Landing Page)'
 help: ''
 new_revision: true
 preview_mode: 0

@@ -1,0 +1,36 @@
+uuid: e3b43495-80ee-4cdd-b74b-0e642b436033
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_research_fund_category
+field_name: field_research_fund_category
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 민간
+    -
+      value: '2'
+      label: 직접사업
+    -
+      value: '3'
+      label: 지방정부
+    -
+      value: '4'
+      label: 국회
+    -
+      value: '5'
+      label: 중앙정부
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

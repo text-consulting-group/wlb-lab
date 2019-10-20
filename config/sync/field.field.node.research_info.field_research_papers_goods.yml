@@ -1,0 +1,21 @@
+uuid: e8815c73-2454-4e69-984d-7e38cc2a11f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_papers_goods
+    - node.type.research_info
+  module:
+    - options
+id: node.research_info.field_research_papers_goods
+field_name: field_research_papers_goods
+entity_type: node
+bundle: research_info
+label: 결과물
+description: research_papers_goods
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

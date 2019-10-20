@@ -1,0 +1,23 @@
+uuid: 4ccfa166-956c-4b6d-b0b0-ebdcfc6e8d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_matierial_url
+    - node.type.research_info
+  module:
+    - link
+id: node.research_info.field_research_matierial_url
+field_name: field_research_matierial_url
+entity_type: node
+bundle: research_info
+label: 첨부자료(링크)
+description: Research_matierial_url
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

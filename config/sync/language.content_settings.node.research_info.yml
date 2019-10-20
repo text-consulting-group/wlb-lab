@@ -1,0 +1,11 @@
+uuid: 70c45913-d7d1-4cb2-a9b4-0799cd95a0ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.research_info
+id: node.research_info
+target_entity_type_id: node
+target_bundle: research_info
+default_langcode: site_default
+language_alterable: false

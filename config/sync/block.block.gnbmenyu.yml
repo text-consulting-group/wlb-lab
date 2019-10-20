@@ -1,0 +1,25 @@
+uuid: eb345c0a-d27a-46b5-9cfb-b2939b7b6b80
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - themag_st
+id: gnbmenyu
+theme: themag_st
+region: footer_bottom_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: ' GNB 메뉴'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

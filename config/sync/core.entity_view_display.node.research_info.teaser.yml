@@ -1,0 +1,45 @@
+uuid: fb2ff545-f1ae-4d77-9f3a-cc62b6979e3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.research_info.body
+    - field.field.node.research_info.field_research_abstract
+    - field.field.node.research_info.field_research_chronological
+    - field.field.node.research_info.field_research_fund_category
+    - field.field.node.research_info.field_research_fund_name
+    - field.field.node.research_info.field_research_matierial_url
+    - field.field.node.research_info.field_research_matierials
+    - field.field.node.research_info.field_research_papers_goods
+    - field.field.node.research_info.field_research_status
+    - field.field.node.research_info.field_researchers_cooperative
+    - node.type.research_info
+  module:
+    - options
+    - user
+id: node.research_info.teaser
+targetEntityType: node
+bundle: research_info
+mode: teaser
+content:
+  field_research_fund_category:
+    type: list_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_research_abstract: true
+  field_research_chronological: true
+  field_research_fund_name: true
+  field_research_matierial_url: true
+  field_research_matierials: true
+  field_research_papers_goods: true
+  field_research_status: true
+  field_researchers_cooperative: true
+  langcode: true
+  links: true
+  shariff_field: true

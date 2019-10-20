@@ -1,0 +1,36 @@
+uuid: 6d85a766-7c1f-4c25-a501-6767144f5414
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_research_status
+field_name: field_research_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 기획.연구(IDEA)
+    -
+      value: '1'
+      label: '심사중(Under Supervision)'
+    -
+      value: '2'
+      label: 진행중(Progress)
+    -
+      value: '3'
+      label: 완료(Done)
+    -
+      value: '4'
+      label: 배포(Distributed)
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

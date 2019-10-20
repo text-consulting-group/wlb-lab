@@ -1,0 +1,28 @@
+uuid: e51e0d2a-095a-4dd8-bd36-813c0d7bcc16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_researchers_cooperative
+    - node.type.research_info
+id: node.research_info.field_researchers_cooperative
+field_name: field_researchers_cooperative
+entity_type: node
+bundle: research_info
+label: 외부참여자
+description: "외부참여자(이름 / 분야 / 역할 / 이메일) / Partner\r\nResearchers_Cooperative"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

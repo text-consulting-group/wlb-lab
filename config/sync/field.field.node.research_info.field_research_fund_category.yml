@@ -1,0 +1,21 @@
+uuid: eae58c43-20cc-40b7-b8e4-eb597b7c6cba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_fund_category
+    - node.type.research_info
+  module:
+    - options
+id: node.research_info.field_research_fund_category
+field_name: field_research_fund_category
+entity_type: node
+bundle: research_info
+label: '기금 종류'
+description: research_fund_category
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

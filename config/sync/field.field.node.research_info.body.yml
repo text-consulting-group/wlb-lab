@@ -1,0 +1,22 @@
+uuid: 11a7a127-970f-4f77-ba1b-5b2c68eeac46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.research_info
+  module:
+    - text
+id: node.research_info.body
+field_name: body
+entity_type: node
+bundle: research_info
+label: '비고(노출 안 함)'
+description: Body
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

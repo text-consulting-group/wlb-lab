@@ -1,0 +1,27 @@
+uuid: 0f165245-919c-4b56-82bc-beb2c4fbfc44
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_research_papers_goods
+field_name: field_research_papers_goods
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 없음
+    -
+      value: '1'
+      label: 있음
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

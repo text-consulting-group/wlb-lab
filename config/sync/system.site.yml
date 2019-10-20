@@ -1,10 +1,10 @@
-name: TheMAG
-mail: example@example.com
-slogan: ''
+name: WLB-LAB
+mail: hello@wlb-lab.org
+slogan: '</br>WLB연구소는 2019년 1월 1일 일생활균형재단으로부터 독립하며 지난 활동성과를 확대하고 일생활균형 실천의 일상화·생활화를 위해 교육·문화운동에 전문화를 시도합니다. '
 page:
   403: ''
   404: ''
-  front: /node/78
+  front: /node/93
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
@@ -12,3 +12,4 @@ default_langcode: en
 _core:
   default_config_hash: IqFDJOUXgoqYSm39bzsb0BVMDSkw3b4-KD4YSUgMw7U
 uuid: 39aff067-938a-4e20-8960-ab878993028e
+mail_notification: hello@wlb-lab.org

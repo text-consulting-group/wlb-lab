@@ -60,7 +60,6 @@ third_party_settings:
     group_basis:
       children:
         - layout_selection
-        - panelizer
         - field_channel
         - title
         - field_seo_title

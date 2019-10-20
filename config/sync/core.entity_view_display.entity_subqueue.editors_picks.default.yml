@@ -1,0 +1,29 @@
+uuid: 56a847c0-4d12-45df-8216-21aed7d913a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.editors_picks
+id: entity_subqueue.editors_picks.default
+targetEntityType: entity_subqueue
+bundle: editors_picks
+mode: default
+content:
+  items:
+    label: hidden
+    type: entity_reference_label
+    weight: 0
+    region: content
+    settings:
+      link: true
+    third_party_settings: {  }
+  title:
+    label: inline
+    type: string
+    weight: -10
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
