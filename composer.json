@@ -86,7 +86,8 @@
         "heiseonline/shariff": "^3.0",
         "drupal/tb_megamenu": "1.x-dev",
         "drupal/layout_library": "^1.0@beta",
-        "drupal/entityqueue": "^1.0@beta"
+        "drupal/entityqueue": "^1.0@beta",
+        "drupal/csv_importer": "^1.5"
     },
     "replace": {
       "bower-asset/shariff": "*"
