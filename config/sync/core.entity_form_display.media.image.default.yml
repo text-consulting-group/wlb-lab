@@ -34,6 +34,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Basis
+      region: content
     group_credits:
       children:
         - field_copyright
@@ -47,6 +48,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Credits
+      region: content
 _core:
   default_config_hash: LSEit48PNMeN-C9dwUnVcfR3R-TvCaqPblQCX9bKEn0
 id: media.image.default

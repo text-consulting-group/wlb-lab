@@ -25,6 +25,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Basis
+      region: content
 _core:
   default_config_hash: 08bV75A7mythKgDuYnsx4c-6Vd2JT45MJ4u0bgi-z-0
 id: media.gallery.default

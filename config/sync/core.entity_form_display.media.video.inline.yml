@@ -34,6 +34,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: Top
+      region: content
     group_bottom:
       children:
         - field_copyright
@@ -53,6 +54,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: Bottom
+      region: content
 _core:
   default_config_hash: 58LU3G89OwugFqsvzevTReWeLiuHQ39EPdnssv-9c-4
 id: media.video.inline

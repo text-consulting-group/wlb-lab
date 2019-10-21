@@ -31,6 +31,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Teaser
+      region: content
     group_basis:
       children:
         - langcode
@@ -45,6 +46,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Basis
+      region: content
 id: node.themag_landing_page.default
 targetEntityType: node
 bundle: themag_landing_page

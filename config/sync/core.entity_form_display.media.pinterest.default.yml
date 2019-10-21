@@ -23,6 +23,7 @@ third_party_settings:
         description: ''
         required_fields: true
       label: Basis
+      region: content
 _core:
   default_config_hash: mJleuXb3vE8VCBg0xmcATs5SJsJbWK_FyliiuYZ_rqc
 id: media.pinterest.default
@@ -44,6 +45,15 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
+  name:
+    type: string_textfield
+    weight: -5
+    label: hidden
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
   uid:
     type: select2_entity_reference
     weight: 2
@@ -56,5 +66,4 @@ content:
 hidden:
   langcode: true
   moderation_state: true
-  name: true
   path: true

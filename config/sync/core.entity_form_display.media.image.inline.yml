@@ -36,6 +36,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: Left
+      region: content
     group_right:
       children:
         - name
@@ -56,6 +57,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: Right
+      region: content
     group_bottom:
       children:
         - field_description
@@ -74,6 +76,7 @@ third_party_settings:
         id: ''
         classes: bottom
       label: Bottom
+      region: content
     group_wrapper:
       children:
         - group_left
@@ -92,6 +95,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: Wrapper
+      region: content
 _core:
   default_config_hash: B472XB6ISzXVj5NnFSr9jJok5J7ntXNlCUgHLNwT9iw
 id: media.image.inline

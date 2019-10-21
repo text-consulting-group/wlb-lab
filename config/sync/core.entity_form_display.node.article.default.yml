@@ -15,7 +15,6 @@ dependencies:
     - field.field.node.article.layout_builder__layout
     - field.field.node.article.layout_selection
     - node.type.article
-    - workflows.workflow.editorial
   module:
     - comment
     - entity_browser
@@ -44,6 +43,7 @@ third_party_settings:
         required_fields: true
         id: ''
         classes: 'content-form__form-section article-teaser'
+      region: content
     group_paragraphs:
       children:
         - field_paragraphs
@@ -57,6 +57,7 @@ third_party_settings:
         required_fields: true
         id: ''
         classes: 'content-form__form-section paragraphs-container'
+      region: content
     group_basis:
       children:
         - layout_selection
@@ -74,6 +75,7 @@ third_party_settings:
         id: ''
         classes: content-form__form-section
       label: Basis
+      region: content
 _core:
   default_config_hash: 3JbrB9yOr--U4k7TzoOdFId67EDzrFKjl82Pqn5rsQg
 id: node.article.default
